@@ -1,4 +1,7 @@
 site_name: My Docs
+site_url: https://seasawher.github.io/mkdocs-demo/
 nav:
   - Home: index.md
   - About: about.md
+theme:
+  name: material

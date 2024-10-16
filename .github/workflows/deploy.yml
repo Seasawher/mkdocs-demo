@@ -34,7 +34,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install MkDocs
-        run: pip install mkdocs
+        run: pip install -r requirements.txt
 
       - name: build HTML
         run: python -m mkdocs build
