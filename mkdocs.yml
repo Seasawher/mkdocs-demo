@@ -9,4 +9,5 @@ nav:
 theme:
   name: material
   features:
+    # これによりサイト上部にナビゲーションタブが表示されるようになる
     - navigation.tabs
